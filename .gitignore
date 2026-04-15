@@ -1,0 +1,4 @@
+# Conexion a la base de datos
+.env
+venv/
+__pycache__/

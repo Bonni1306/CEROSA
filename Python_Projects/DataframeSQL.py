@@ -1,5 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
+import os
+from dotenv import load_dotenv
 
 # 1. Configurar la conexión (reemplaza con tus credenciales)
 #engine = create_engine('postgresql://usuario:contraseña@localhost:5432/nombre_db')
