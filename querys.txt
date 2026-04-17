@@ -1,0 +1,3 @@
+SELECT ItemCode, ItemName, AvgPrice, OnHand FROM OITM WHERE FirmCode IN (SELECT FirmCode FROM OMRC WHERE FirmName LIKE '%Siemens%')
+
+SELECT ItemCode, ItemName, FirmCode where FirmCode LIKE '%Siemens%'

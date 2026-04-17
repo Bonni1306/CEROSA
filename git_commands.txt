@@ -1,0 +1,15 @@
+# Para crear una nueva rama en github
+
+git checkout -b funcion-nueva
+git add mi_script.py
+git commit -m "Mi primer commit en la rama"
+git push -u origin funcion-nueva
+
+
+# Para subir los cambios a github
+
+git init
+git add .
+git commit -m "Añadir archivo python"
+git remote add origin URL_DE_TU_REPOSITORIO
+git push -u origin main
