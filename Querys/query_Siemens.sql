@@ -1,0 +1,1 @@
+SELECT T0.ItemCode AS 'Producto', T0.ItemName AS 'Descripcion', T0.FirmCode AS 'Fabricante', T0.AvgPrice AS 'Costo', SUM(T1.OnHand) AS 'Stock Total' FROM OITM T0 INNER JOIN OITW T1 ON T0.ItemCode = T1.ItemCode WHERE T0.FirmCode = '39' GROUP BY T0.ItemCode, T0.ItemName, T0.FirmCode,T0.AvgPrice;
